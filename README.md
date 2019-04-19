@@ -31,9 +31,13 @@ If ITCH file path is not provided, the program will look up for the file in the 
 ### Performance
 
 Machine: MacBook Pro (13-inch, 2017)
+
 Processor: 2.3 GHz Intel Core i5
+
 Memory: 16 GB 2133 MHz LPDDR3
 
 real	22m20.906s
+
 user	20m55.053s
+
 sys	0m35.057s
