@@ -4,7 +4,7 @@ Calculate the running Volume weighted average price(VWAP) of each stock at all t
 
 The program will print the execution time at the end.
 
-## Output
+### Output
 
 `/out` folder has VWAP results for each trading hour, and the files are named by the timestamp
 
