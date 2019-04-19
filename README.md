@@ -36,8 +36,8 @@ Processor: 2.3 GHz Intel Core i5
 
 Memory: 16 GB 2133 MHz LPDDR3
 
-real	22m20.906s
+real	20m3.138s
 
-user	20m55.053s
+user	18m37.068s
 
-sys	0m35.057s
+sys	0m29.306s

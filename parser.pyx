@@ -15,7 +15,7 @@ def add_order_no_mpid(msg):
     cdef unsigned long long order_id
     cdef unsigned int qty, price
 
-    # util.CURR_TIME = int.from_bytes(msg[5:11], 'big')
+    util.CURR_TIME = int.from_bytes(msg[5:11], 'big')
     _,locate_id, _, _, order_id, _, qty, _, price = unpack('>sHH6sQsI8sI', msg)
     util.buy_orders[order_id] = [price, qty, locate_id]
 

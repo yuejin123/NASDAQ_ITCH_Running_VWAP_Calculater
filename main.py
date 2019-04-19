@@ -35,6 +35,7 @@ if __name__=='__main__':
 
         if message_type == "S":
             if chr(message[11])=='C':
+                util.CURR_TIME = int.from_bytes(message[5:11], 'big')
                 print('end of day')
                 util.output_vwap(util.executed_orders, util.stock_names, util.CURR_TIME)
                 exit()
