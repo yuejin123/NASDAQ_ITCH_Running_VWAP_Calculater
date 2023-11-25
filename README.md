@@ -21,6 +21,7 @@ Navigate to the VWAP directory and run the following commands in your terminal.
 
 
 ```
+pip install -r requirements.txt
 mkdir out
 python setup.py build_ext --inplace
 python main.py [itch_file_path] 
